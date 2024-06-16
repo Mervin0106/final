@@ -27,39 +27,23 @@ st.write("**Education:** Currently studying at CARLOS HILADO MEMORIAL STATE UNIV
 st.write("**Year:** 3rd year Bachelor of Science in Information Systems Student")
 st.write("**Location:** Silay City Negros Occidental")
 
-# with st.expander("Who I am 10 years From now??"):
-#     st.markdown("""
-    
-#     #
-#                 Ten Years From Now: A Glimpse into the Future as an Information Student
-# In the year 2034, I envision myself as an accomplished information professional, leveraging the skills 
-#                 and knowledge acquired through a decade of rigorous study and practical experience. The journey from a 
-#                 curious student to a seasoned expert has been transformative, marked by significant technological advancements, 
-#                 evolving industry demands, and personal growth. This essay delves into the aspirations, milestones, and the envisioned
-#                 role I will play in the realm of information science ten years from now.
-
-#                 Personal Growth and Vision
-# The journey to becoming a prominent information professional will be shaped by continuous learning and personal growth. I will embrace a mindset
-#                  of curiosity and resilience, constantly seeking new knowledge and adapting to changing circumstances. My passion for information 
-#                  science will be fueled by a desire to make a positive impact on the world, addressing societal challenges through innovative solutions.
-
-# In 2034, I will be a testament to the transformative power of education, perseverance, and a forward-thinking vision. My career will be a blend of research 
-#                 excellence, educational mentorship, industry leadership, and societal impact. As I reflect on the journey from an eager information student 
-#                 to a trailblazing professional, I will take pride in the contributions I have made to the field and the legacy I continue to build.
-
-# In conclusion, ten years from now, I will be an influential information scientist, educator, and leader, dedicated to advancing the field and harnessing the 
-#                 power of data for the greater good. My story will be one of relentless pursuit of knowledge, innovative thinking, and unwavering commitment to 
-#                 making a difference in the world.
-#     """, unsafe_allow_html=True)
-# Quotes
 
 
-st.header("Favorite Quotes")
-st.write("1. *\"Every day is a new opportunity to learn and grow.\"*")
-st.write("2. *\"Embrace the challenges, for they are the stepping stones to success.\"*")
-st.write("3. *\"Kindness is the language that the deaf can hear and the blind can see.\"*")
-st.write("4. *\"Dream big, work hard, stay focused, and surround yourself with good people.\"*")
-st.write("5. *\"In a world where you can be anything, be yourself.\"*")
+
+st.header("Hobbies")
+
+st.subheader("Basketball")
+st.write("""
+Basketball is a popular sport where two teams, usually of five players each, compete to score points by throwing a ball through the opposing team's hoop. 
+It improves physical fitness, teamwork skills, and is a fun way to stay active.
+""")
+
+st.subheader("Playing Online Games")
+st.write("""
+Playing online games involves interacting with others through various gaming platforms. 
+It can be a great way to unwind, improve strategic thinking, and connect with friends. 
+Popular genres include action, adventure, and role-playing games.
+""")
 
 
 
