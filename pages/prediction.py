@@ -3,8 +3,7 @@ import pickle
 
 # Load the trained Naive Bayes classifier from the saved file
 file = 'pages/sentimentAnalyzerTest_Model.sav'
-with open(file, 'rb') as file:
-    loaded_model = pickle.load(file)
+loaded_model = pickle.load(open(file, 'rb'))    
 
 st.title("Typhoon Analysis Predictor 🍃🌧☔💦")
 st.subheader("⋆.ೃ࿔⛈ ˖*༄ Enter levels of different factors to determine the potential typhoon:")
