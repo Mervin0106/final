@@ -13,7 +13,7 @@ from sklearn.utils.validation import check_is_fitted
 
 
 # Set Streamlit page configuration
-st.set_page_config(layout="wide", page_title="Image Classification for Flowers")
+st.set_page_config(layout="wide", page_title="Image Classification for WILDCATS")
 
 # Function to load the model
 def load_model():
